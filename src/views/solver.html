@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simultaneous Equation</title>
+    <link rel="stylesheet" href="../css/solver.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="environment">
+            <h1 style="color: black">
+                JAVASCRIPT SIMULTANEOUS EQUATION ENGINE - X
+            </h1>
+            <div class="row1">
+                <h1 style="border: 1px solid black">Equation One</h1>
+                <div class="details">
+                    <div class="x-c">
+                        <input type="numbers" placeholder="Enter x1" id="x1" />
+                    </div>
+                    <div class="y-c">
+                        <input type="numbers" placeholder="Enter y1" id="y1" />
+                    </div>
+                    <div class="righthand">
+                        <input type="numbers" placeholder="Enter Constant C1" id="constant1" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row2">
+                <h1 style="border: 1px solid black">Equation Two</h1>
+                <div class="details">
+                    <div class="x-c">
+                        <input type="numbers" placeholder="Enter x2" id="x2" />
+                    </div>
+                    <div class="y-c">
+                        <input type="numbers" placeholder="Enter y2" id="y2" />
+                    </div>
+                    <div class="righthand">
+                        <input type="numbers" placeholder="Enter Constant C2" id="constant2" />
+                    </div>
+                </div>
+            </div>
+            <div class="view">
+                <h1 class="output">OUTPUT</h1>
+
+                <div class="details">
+                    <div class="final" id="output"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.3.2/math.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
